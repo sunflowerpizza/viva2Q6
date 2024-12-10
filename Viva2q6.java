@@ -49,7 +49,7 @@ public class Viva2q6 {
 		}
 	}
 	
-	public static int[][] rotateMatrix(int array[][]) {
+	public static void rotateMatrix(int array[][]) {
             //this loop rotates the matrix diagonally
             for(int i = 0; i<array.length;i++){
                 for(int j = i+1;j<array.length;j++){
@@ -72,7 +72,6 @@ public class Viva2q6 {
                 right--;
             }   
             }
-            return array;
     }
 }
  
